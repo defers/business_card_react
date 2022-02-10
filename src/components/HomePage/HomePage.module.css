@@ -1,0 +1,41 @@
+
+.homepage_container {
+    display: flex;
+    justify-content: center;
+}
+
+.homepage_header {
+    background-image: url("../../static/img/pexels-photo-1166644.jpeg");
+    opacity: 0.85;
+    max-width: 100%;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    height: 130vh;
+
+}
+
+.homepage_title {
+    margin-top: 50px;
+    max-width: 80%;
+    width: 80%;
+    max-height: 100px;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    opacity: 0.8;
+ 
+}
+
+@media (max-width: 600px) {
+
+    .homepage_title {
+        margin-top: 200px;
+        font-size: 1.2rem;
+    }    
+
+    .homepage_title p {
+        line-height: 40px;
+    }
+
+}
